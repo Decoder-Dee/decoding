@@ -1,6 +1,8 @@
 # decoding
 i decode protected files
 
-<p style="color:blue;">You can change the text color of a whole sentence or paragraph...</p>
-<p>...or you can change the text color of one <span style="color:green;">word</span> or even a single l<span 
+i decode ioncube protected files from php5.2-5.6 free !
+join discord for more 
+
+https://discord.gg/GEkK8Tf
 
