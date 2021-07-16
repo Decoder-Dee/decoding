@@ -60,7 +60,12 @@ tasks:
     dest: ./resources/[essential]/cron
 
   - action: download_github
-    src: https://github.com/esx-framework/skinchanger
+    src: https://github.com/Supremeeeeeee/instance
+    ref: 21cea1fee9f666ac3a30b9b03d6f8b5f21afb57d
+    dest: ./resources/[essential]/instance
+
+  - action: download_github
+    src: https://github.com/mitlight/skinchanger
     ref: d716177f226ad696d903a27d7afa3ca97ce80a3b
     dest: ./resources/[essential]/skinchanger
 
@@ -81,17 +86,17 @@ tasks:
     dest: ./resources/[esx]/es_extended
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_menu_default
+    src: https://github.com/thelindat/esx-legacy/tree/main/%5Besx%5D/esx_menu_default
     ref: 2d46087ade9369c46df1d80b706dc13e6e4ac673
     dest: ./resources/[esx]/esx_menu_default
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_menu_dialog
+    src: https://github.com/thelindat/esx-legacy/tree/main/%5Besx%5D/esx_menu_dialog
     ref: 1f53d642aa5867fd7762e1c98454d616e2a66f6a
     dest: ./resources/[esx]/esx_menu_dialog
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_menu_list
+    src: https://github.com/thelindat/esx-legacy/tree/main/%5Besx%5D/esx_menu_list
     ref: c4c88a9afd475074213d2586d09ac091c389c369
     dest: ./resources/[esx]/esx_menu_list
 
@@ -136,12 +141,12 @@ tasks:
     dest: ./resources/[esx]/esx_billing
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_addoninventory
+    src: https://github.com/ESX-CN/esx_addoninventory
     ref: master
     dest: ./resources/[esx]/esx_addoninventory
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_addonaccount
+    src: https://github.com/ESX-Brasil/esx_addonaccount
     ref: master
     dest: ./resources/[esx]/esx_addonaccount
 
@@ -151,82 +156,82 @@ tasks:
     dest: ./resources/[esx]/esx_society
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_license
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_license
     ref: master
     dest: ./resources/[esx]/esx_license
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_service
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_service
     ref: master
     dest: ./resources/[esx]/esx_service
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_garage
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_garage
     ref: master
     dest: ./resources/[esx]/esx_garage
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_vehicleshop
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_vehicleshop
     ref: 79e10361bb3607f152a2887b5b45ff998e840d52 # latest is bugged, ask taso
     dest: ./resources/[esx]/esx_vehicleshop
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_jobs
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_jobs
     ref: master
     dest: ./resources/[esx]/esx_jobs
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_joblisting
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_joblisting
     ref: master
     dest: ./resources/[esx]/esx_joblisting
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_policejob
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_policejob
     ref: master
     dest: ./resources/[esx]/esx_policejob
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_ambulancejob
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_ambulancejob
     ref: master
     dest: ./resources/[esx]/esx_ambulancejob
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_mechanicjob
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_mechanicjob
     ref: master
     dest: ./resources/[esx]/esx_mechanicjob
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_taxijob
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_taxijob
     ref: master
     dest: ./resources/[esx]/esx_taxijob
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_lscustom
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_lscustom
     ref: master
     dest: ./resources/[esx]/esx_lscustom
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_atm
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_atm
     ref: master
     dest: ./resources/[esx]/esx_atm 
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_clotheshop
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_clotheshop
     ref: master
     dest: ./resources/[esx]/esx_clotheshop
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_barbershop
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_barbershop
     ref: master
     dest: ./resources/[esx]/esx_barbershop
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_drugs
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_drugs
     ref: master
     dest: ./resources/[esx]/esx_drugs
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_holdup
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_holdup
     ref: master
     dest: ./resources/[esx]/esx_holdup
     
@@ -297,4 +302,3 @@ tasks:
   ## Final touches
   - action: remove_path
     path: ./tmp
-    
